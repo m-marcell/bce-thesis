@@ -1,4 +1,4 @@
-<img src="./img/color_logo.png" alt="Budapesti Corvinus Egyetem" width="300" />
+<img src="./img/logo_inverz.png" alt="Budapesti Corvinus Egyetem" width="300" />
 
 > [!WARNING]
 > Ez nem egy egyetemi hivatalos sablon, a szakdolgozat leadási követelményeinek való megfelelés nem minden esetben garantált, leadás előtt érdemes ellenőrizni a mindenkori hatályos TVSZ-ben foglaltakat!
