@@ -1,0 +1,57 @@
+\documentclass{bce-thesis}
+
+\addbibresource{irodalomjegyzek.bib}
+
+\thesistitle{Dolgozat főcíme}
+\thesissubtitle{Dolgozat alcíme\\(opcionális)}
+
+\authorname{Alfonz Aladár}
+\authorprogram{Példa szak,\\Példa specializáció}
+
+\supervisorname{Dr. Cirmai Cecília}
+\supervisortitle{Egyetemi tanár} % lehetséges beosztások: mestertanár, tanársegéd, adjunktus, főiskolai docens, egyetemi docens, főiskolai tanár, egyetemi tanár
+
+\thesisyear{2026}
+
+\institution{Budapesti Corvinus Egyetem}
+
+% Az egyetem logója, választható
+\logo{./img/color_coa_HUN.pdf}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+	Ide kerül a dolgozat rövid kivonata, amennyiben szükséges.
+\end{abstract}
+
+\section{Bevezetés}
+
+\input{./sections/bevezetes.tex}
+
+\cleardoublepage
+
+\section{Irodalmi áttekintés}
+
+\input{./sections/irodalom.tex}
+
+\cleardoublepage
+
+\section{Tartalmi részek, összegzés, stb}
+
+\input{./sections/tartalom.tex}
+
+\cleardoublepage
+
+\pagenumbering{roman}
+
+\printbibliography[title=Irodalomjegyzék]
+
+\listoffigures
+
+\cleardoublepage
+
+\nyilatkozat
+
+\end{document}

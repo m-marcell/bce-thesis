@@ -1,0 +1,19 @@
+A szakdolgozat szerves részét képzi a szakirodalom feldolgozása, és ennek helyes hivatkozása. A \href{https://www.uni-corvinus.hu/downloads/98n7.tnm69v/hkr-3-tvsz-2024-szeptember-1-00-alairt-1.pdf}{jelenleg hatályos egyetemi TVSZ szerint} a használt hivatkozási stílus az \href{https://apastyle.apa.org/}{APA stílus}.
+
+\subsection{A \texttt{biblatex} és a hivatkozásfajták}
+
+A sablon a texttt{biblatex} csomagot használja \texttt{biber} backend-el, magyar nyelven. A hivatkozásko generálására érdemes a szakdolgozat elkészítéséhez használt anyagokat egy hivatkozáskezelő programmal összegyűjteni, és a dolgozat megírásakor ezt egy \texttt{.bib} fájlba kinyerni, hogy ne manuálisan kelljen beírni az egyes anyagokat. 
+
+\subsection{Hogyan hivatkozunk}
+
+3 fajta hivatkozási mód támogatott:
+
+\begin{itemize}
+    \item A módszertanunk \textcite{fama_five-factor_2015} alapján a következő..., \par \texttt{\textbackslash textcite\{anyag\_neve\}} paranccsal
+    \item Az efféle kutatások eredményei többnyire megerősítik az állításainkat. \parencite{fama_five-factor_2015}, \par \texttt{\textbackslash parencite\{anyag\_neve\}} paranccsal
+    \item Az efféle kutatások eredményei többnyire megerősítik az állításainkat. \footcite{fama_five-factor_2015}, \par \texttt{\textbackslash footcite\{anyag\_neve\}} paranccsal
+\end{itemize}
+
+\subsection{Hivatkozásjegyzék elkészülte}
+
+A hivatkozásjegyzék autómatikusan elkészül, viszont a dolgozat benyújtása előtt mindenképpen ellenörizzük, hogy minden megfelelően formázva szerepel benne!
