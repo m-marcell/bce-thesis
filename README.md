@@ -1,7 +1,7 @@
 <img src="./img/logo_inverz.png" alt="Budapesti Corvinus Egyetem" width="300" />
 
 > [!CAUTION]
-> **Nem hivatalos egyetemi sablon**, a szakdolgozat leadási követelményeinek való megfelelés nem minden esetben garantált, leadás előtt érdemes ellenőrizni a mindenkori hatályos TVSZ-ben foglaltakat!
+> **Nem hivatalos egyetemi sablon**, a szakdolgozat leadási követelményeinek való megfelelés nem minden esetben garantált, leadás előtt érdemes ellenőrizni a mindenkori hatályos TVSZ-ben foglaltakat!  
 > TVSZ 2024.07-től: https://www.uni-corvinus.hu/downloads/98n7.tnm69v/hkr-3-tvsz-2024-szeptember-1-00-alairt-1.pdf
 
 # Budapesti Corvinus Egyetem LaTeX szakdolgozati sablon
@@ -34,6 +34,10 @@ Továbbá hasznos forrás lehet a [csomagok archívuma](https://ctan.org/), de s
 ### Egyéni változtatások
 
 A szakdolgozat formaterve a `bce-thesis.cls` fájlban található, az egyéni változtatásokat itt lehet központilag megtenni! Egyelőre class fájlként üzemel, idővel elképzelhető, hogy különálló csomagként is betölthető legyen.
+
+### Nyilatkozat
+
+Az új egyetemi szabályozás szerint a leadott szakdolgozatokhoz csatolni kell egy mesterséges intelligencia használatról szóló nyilatkozatot, ahol részletezni kell, hogy milyen mértékben és mely feladatokhoz használt a hallgató AI eszközöket. Ez a nyilatkozat jelenleg a `bce-thesis.cls` fájlban szerkeszthető!
 
 ------
 
